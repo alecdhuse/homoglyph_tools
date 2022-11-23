@@ -1,0 +1,44 @@
+<html>
+    <head>
+      <meta charset="UTF-8">
+
+      <style>
+      </style>
+    </head>
+
+    <body>
+      <div style="">
+        <div>
+          <textarea rows="18" cols="80" id="input_text" autocomplete="off" tabindex="1"></textarea>
+        </div>
+        <div>
+          <button type="button" onclick="parse_text()" tabindex="2">Parse</button>
+        </div>
+      </div>
+
+      <div style="margin-top:20px;">
+        <div>
+          <textarea rows="18" cols="80" id="output_text" autocomplete="off" tabindex="1"></textarea>
+        </div>
+      </div>
+
+    </body>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="homoglyph_tools.js"></script>
+
+    <script type="text/javascript">
+      // Instantiate Homoglyph_Tools class
+      let homoglyph_tools = new Homoglyph_Tools();
+
+      // Add custom strings to the built in list of well known strings.
+      homoglyph_tools.add_well_known_string("BrandName");
+
+      function parse_text() {
+        let input_text = $("#input_text").val();
+        let homoglyph_obj = homoglyph_tools.detect_homoglyphs(input_text);
+
+        $("#output_text").val(JSON.stringify(homoglyph_obj, null, 2));
+      }
+    </script>
+</html>
