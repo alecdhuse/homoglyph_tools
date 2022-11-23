@@ -42,6 +42,10 @@ class Homoglyph_Tools {
         'character_set': "Cyrillic",
         'replacement_characters': ["A"]
       },
+      'Ꭺ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["A"]
+      },
       'ạ': {
         'character_set': "Vietnamese",
         'replacement_characters': ["a"]
@@ -66,9 +70,25 @@ class Homoglyph_Tools {
         'character_set': "Latin Extended",
         'replacement_characters': ["B"]
       },
+      'Ꮟ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["b"]
+      },
+      'Ᏸ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["B"]
+      },
+      'Ᏼ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["B"]
+      },
       'в': {
         'character_set': "Cyrillic",
         'replacement_characters': ["B"]
+      },
+      'Ꮯ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["c"]
       },
       'с': {
         'character_set': "Cyrillic",
@@ -89,6 +109,10 @@ class Homoglyph_Tools {
       'Ꭰ': {
         'character_set': "Cherokee",
         'replacement_characters': ["D"]
+      },
+      'Ꭼ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["E"]
       },
       'е': {
         'character_set': "Cyrillic",
@@ -125,6 +149,18 @@ class Homoglyph_Tools {
       'g': {
         'character_set': "Armenian",
         'replacement_characters': ["g"]
+      },
+      'Ꮹ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["G"]
+      },
+      'Ꮆ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["G"]
+      },
+      'Ᏻ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["G"]
       },
       'ǥ': {
         'character_set': "Latin Skolt Sami",
@@ -194,9 +230,21 @@ class Homoglyph_Tools {
         'character_set': "Thai",
         'replacement_characters': ["J","U"]
       },
+      'Ꮶ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["K"]
+      },
       'к': {
         'character_set': "Cyrillic",
         'replacement_characters': ["K"]
+      },
+      'Ꮣ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["L"]
+      },
+      'Ꮮ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["L"]
       },
       'l': {
         'character_set': "Latin",
@@ -250,6 +298,10 @@ class Homoglyph_Tools {
         'character_set': "Armenian",
         'replacement_characters': ["o"]
       },
+      'Ꭴ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["O"]
+      },
       'о': {
         'character_set': "Cyrillic",
         'replacement_characters': ["o"]
@@ -294,6 +346,10 @@ class Homoglyph_Tools {
         'character_set': "Cherokee",
         'replacement_characters': ["R"]
       },
+      'Ꮢ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["R"]
+      },
       'ŗ': {
         'character_set': "Livonian",
         'replacement_characters': ["r"]
@@ -305,6 +361,14 @@ class Homoglyph_Tools {
       'Տ': {
         'character_set': "Armenian",
         'replacement_characters': ["s"]
+      },
+      'Ꮪ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["S"]
+      },
+      'Ꭲ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["T"]
       },
       'Т': {
         'character_set': "Cyrillic",
@@ -346,9 +410,21 @@ class Homoglyph_Tools {
         'character_set': "Roman Numeral",
         'replacement_characters': ["v"]
       },
+      'Ꮩ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["V"]
+      },
       'ѡ': {
         'character_set': "Cyrillic",
         'replacement_characters': ["w"]
+      },
+      'Ꮃ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["W"]
+      },
+      'Ꮤ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["W"]
       },
       'พ': {
         'character_set': "Thai",
@@ -374,9 +450,21 @@ class Homoglyph_Tools {
         'character_set': "Cyrillic",
         'replacement_characters': ["y"]
       },
+      'Ꭹ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["y"]
+      },
       'ž': {
         'character_set': "Czech",
         'replacement_characters': ["z"]
+      },
+      'Ꮓ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["Z"]
+      },
+      'Ꮞ': {
+        'character_set': "Cherokee",
+        'replacement_characters': ["4"]
       }
     };
 
