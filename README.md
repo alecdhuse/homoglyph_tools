@@ -7,7 +7,7 @@ A homoglyph is a text character that visualy resembles another character.
 For example a lowercase l looks similar to an uppercase I. 
 
 ## What is a homoglyph attack?
-A homoglyph attack is malicious use of similar looking characters to try to fool someone. This is often done with punycode URLs to make the mresemble legitimate websites.
+A homoglyph attack is the malicious use of similar-looking characters to fool someone. This is often done with Punycode URLs to make them resemble legitimate websites.
 
 ## Usage Example
 ```
