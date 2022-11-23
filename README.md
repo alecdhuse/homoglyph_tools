@@ -14,10 +14,10 @@ A homoglyph attack is the malicious use of similar-looking characters to fool so
   // Instantiate Homoglyph_Tools class
   let homoglyph_tools = new Homoglyph_Tools();
 
-  // Add custom strings to the built in list of well known strings.
+  // Add custom strings to the built-in list of well known strings.
   homoglyph_tools.add_well_known_string("BrandName"); 
 
-  let homoglyph_results = homoglyph_tools.detect_homoglyphs("Some test including a potential homoglyph like: Braոdname");  
+  let homoglyph_results = homoglyph_tools.detect_homoglyphs("Some text including a potential homoglyph like: Braոdname");  
 ```
 
 The result is an JSON object like:
