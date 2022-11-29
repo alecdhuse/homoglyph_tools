@@ -623,9 +623,11 @@ class Homoglyph_Tools {
       let matches = input_string.match(regex);
       let word_matches = [];
 
-      for (let i=0; i<matches.length; i++) {
-        if (!word_matches.includes(matches[i].trim())) {
-          word_matches.push(matches[i].trim());
+      if (matches !== undefined && matches !== null) {
+        for (let i=0; i<matches.length; i++) {
+          if (!word_matches.includes(matches[i].trim())) {
+            word_matches.push(matches[i].trim());
+          }
         }
       }
 
