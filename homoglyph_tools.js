@@ -110,6 +110,10 @@ class Homoglyph_Tools {
         'character_set': "Roman Numeral",
         'replacement_characters': ["d"]
       },
+      'ԁ': {
+        'character_set': "Cyrillic",
+        'replacement_characters': ["d"]
+      },
       'Ꭰ': {
         'character_set': "Cherokee",
         'replacement_characters': ["D"]
