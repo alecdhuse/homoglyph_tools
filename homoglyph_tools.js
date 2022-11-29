@@ -86,6 +86,10 @@ class Homoglyph_Tools {
         'character_set': "Cyrillic",
         'replacement_characters': ["B"]
       },
+      'ы': {
+        'character_set': "Cyrillic",
+        'replacement_characters': ["bl"]
+      },
       'Ꮯ': {
         'character_set': "Cherokee",
         'replacement_characters': ["c"]
@@ -272,6 +276,10 @@ class Homoglyph_Tools {
       },
       'ո': {
         'character_set': "Armenian",
+        'replacement_characters': ["n"]
+      },
+      'п': {
+        'character_set': "Cyrillic",
         'replacement_characters': ["n"]
       },
       'ņ': {
