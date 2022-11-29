@@ -497,6 +497,7 @@ class Homoglyph_Tools {
       "login",
       "Microsoft",
       "Netflix",
+      "note",
       "Office",
       "Outlook",
       "PayPal",
