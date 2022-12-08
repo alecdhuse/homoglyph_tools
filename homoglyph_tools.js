@@ -158,6 +158,10 @@ class Homoglyph_Tools {
         'character_set': "Armenian",
         'replacement_characters': ["g"]
       },
+      'ğ': {
+        'character_set': "Turkish",
+        'replacement_characters': ["g"]
+      },
       'Ꮹ': {
         'character_set': "Cherokee",
         'replacement_characters': ["G"]
@@ -404,6 +408,10 @@ class Homoglyph_Tools {
       },
       'ս': {
         'character_set': "Armenian",
+        'replacement_characters': ["u"]
+      },
+      'ü': {
+        'character_set': "Latin Extended",
         'replacement_characters': ["u"]
       },
       'น': {
