@@ -138,6 +138,10 @@ class Homoglyph_Tools {
         'character_set': "Latin Extended",
         'replacement_characters': ["e"]
       },
+      'ė': {
+        'character_set': "Latin Extended",
+        'replacement_characters': ["e"]
+      },
       'Е': {
         'character_set': "Cyrillic",
         'replacement_characters': ["E"]
@@ -174,6 +178,10 @@ class Homoglyph_Tools {
         'character_set': "Cherokee",
         'replacement_characters': ["G"]
       },
+      'б': {
+        'character_set': "Cyrillic",
+        'replacement_characters': ["G","6"]
+      },
       'ǥ': {
         'character_set': "Latin Skolt Sami",
         'replacement_characters': ["g"]
@@ -186,9 +194,9 @@ class Homoglyph_Tools {
         'character_set': "Latin Extended",
         'replacement_characters': ["G"]
       },
-      'б': {
-        'character_set': "Cyrillic",
-        'replacement_characters': ["G","6"]
+      'ġ': {
+        'character_set': "Maltese",
+        'replacement_characters': ["g"]
       },
       'H': {
         'character_set': "Greek",
@@ -199,6 +207,10 @@ class Homoglyph_Tools {
         'replacement_characters': ["H"]
       },
       'ỉ': {
+        'character_set': "Latin Extended",
+        'replacement_characters': ["i"]
+      },
+      'ï': {
         'character_set': "Latin Extended",
         'replacement_characters': ["i"]
       },
@@ -288,6 +300,10 @@ class Homoglyph_Tools {
       },
       'п': {
         'character_set': "Cyrillic",
+        'replacement_characters': ["n"]
+      },
+      'η': {
+        'character_set': "Greek",
         'replacement_characters': ["n"]
       },
       'ņ': {
