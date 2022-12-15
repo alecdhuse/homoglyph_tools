@@ -46,16 +46,16 @@ class Homoglyph_Tools {
         'character_set': "Cherokee",
         'replacement_characters': ["A"]
       },
-      'ạ': {
-        'character_set': "Vietnamese",
-        'replacement_characters': ["a"]
-      },
-      'α': {
-        'character_set': "Greek",
+      'ä': {
+        'character_set': "Latin Extended",
         'replacement_characters': ["a"]
       },
       'ā': {
         'character_set': "Latin Extended",
+        'replacement_characters': ["a"]
+      },
+      'α': {
+        'character_set': "Greek",
         'replacement_characters': ["a"]
       },
       'Α': {
@@ -64,6 +64,10 @@ class Homoglyph_Tools {
       },
       'ล': {
         'character_set': "Thai",
+        'replacement_characters': ["a"]
+      },            
+      'ạ': {
+        'character_set': "Vietnamese",
         'replacement_characters': ["a"]
       },
       'ʙ': {
