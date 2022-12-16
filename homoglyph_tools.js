@@ -62,10 +62,18 @@ class Homoglyph_Tools {
         'character_set': "Greek",
         'replacement_characters': ["A"]
       },
+      'ą': {
+        'character_set': "Polish",
+        'replacement_characters': ["a"]
+      },
+      'Ą': {
+        'character_set': "Polish",
+        'replacement_characters': ["A"]
+      },
       'ล': {
         'character_set': "Thai",
         'replacement_characters': ["a"]
-      },            
+      },
       'ạ': {
         'character_set': "Vietnamese",
         'replacement_characters': ["a"]
@@ -93,6 +101,10 @@ class Homoglyph_Tools {
       'ы': {
         'character_set': "Cyrillic",
         'replacement_characters': ["bl"]
+      },
+      'ḅ': {
+        'character_set': "Latin Extended",
+        'replacement_characters': ["b"]
       },
       'Ꮯ': {
         'character_set': "Cherokee",
