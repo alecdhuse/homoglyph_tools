@@ -158,6 +158,10 @@ class Homoglyph_Tools {
         'character_set': "Latin Extended",
         'replacement_characters': ["e"]
       },
+      'ê': {
+        'character_set': "Latin Extended",
+        'replacement_characters': ["e"]
+      },
       'Е': {
         'character_set': "Cyrillic",
         'replacement_characters': ["E"]
