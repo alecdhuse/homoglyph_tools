@@ -362,6 +362,10 @@ class Homoglyph_Tools {
         'character_set': "Greek",
         'replacement_characters': ["o"]
       },
+      'σ': {
+        'character_set': "Greek",
+        'replacement_characters': ["o"]
+      },
       'ס': {
         'character_set': "Hebrew",
         'replacement_characters': ["o"]
