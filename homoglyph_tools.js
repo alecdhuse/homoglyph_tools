@@ -178,9 +178,9 @@ class Homoglyph_Tools {
         'character_set': "Latin Extended",
         'replacement_characters': ["F"]
       },
-      'g': {
+      'Ց': {
         'character_set': "Armenian",
-        'replacement_characters': ["g"]
+        'replacement_characters': ["g","B","8"]
       },
       'ğ': {
         'character_set': "Turkish",
